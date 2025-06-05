@@ -1,0 +1,36 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.black-bg {
+  background: black;
+}
+
+.big-gaz-button {
+  background: red;
+  color: white;
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.click-button {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  margin-top: 30px;
+}
